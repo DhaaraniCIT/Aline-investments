@@ -30,10 +30,20 @@
 owl.owlCarousel({
     items:4,
     loop:true,
-    margin:10,
+    margin:90,
     autoplay:true,
     autoplayTimeout:1000,
-    autoplayHoverPause:true
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        }
+    }
 });
 $('.play').on('click',function(){
     owl.trigger('play.owl.autoplay',[1000])
@@ -86,7 +96,7 @@ $('.stop').on('click',function(){
         <div class="row ml-0 mr-0 mt-4 mb-4">
           <div class="container">
             <div class="text-center mb-4">
-              <h1 style="">
+              <h1>
                 We get it. 🤷🏽‍♀️ <br class="mb-3">
                 Investing is overwhelming, <br class="mb-3">
                 but it doesn’t have to be. <br class="mb-3">
