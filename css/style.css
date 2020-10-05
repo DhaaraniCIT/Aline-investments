@@ -1,0 +1,189 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.background{
+  background-image:url('../images/Investingjourneypic-a9bb92f557694caaaa92b761eb2cadd9.jpg');
+  position:relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  }
+a{
+  color: white;
+}
+a:hover{
+  color: white;
+  text-decoration:none;
+}
+.typewriter h6 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.navbar-color {
+  background-color:blueviolet;
+  width: 100% !important;
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-default{
+  transition:500ms ease;
+  background:transparent;
+}
+.navbar-default.scrolled{
+  background:#b17cc6;
+}
+.card{
+  background-color: #F7ECFA;
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+  border: none;
+  padding: 10px;
+}
+.card-header{
+  background-color: #F7ECFA;
+  border-bottom: none;
+}
+.card-deck .card:hover{
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.list-group-item{
+  border: none;
+  margin-bottom: 35px;
+}
+.list-group-item h5{
+  font-weight: 900;
+}
+.list-group-item div{
+  display: flex;
+}
+.list-group-item p{
+  text-align: left;
+  padding-left: 70px;
+}
+.list-group-item .material-icons{
+  font-size: 45px;
+  color:#b17cc6;
+}
+.container h1{
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.btn{
+  color:#b17cc6;
+  margin-bottom: 0px;
+  font-weight: 900;
+  font-size: 15px;
+  padding: 15px 30px;
+}
+.card-header .material-icons{
+  font-size: 70px;
+}
+.thrid-section{
+  margin-bottom: 60px;
+}
+.fourth-section{
+  background-color: #AE42C9;
+}
+.fourth-section .container{
+  margin-bottom: 70px;
+}
+.fourth-section p{
+  font-size: 20px;
+}
+.fourth-section button:hover{
+  color: white;
+  background-color:#AE42C9;
+}
+.background .btn:hover{
+  color: white;
+  background-color:#AE42C9;
+}
+.fifth-section{
+  margin-bottom: 50px;
+}
+.owl-carousel .item{
+  width: 172.5px;
+  height: 45px;
+  margin-top:30px;
+  margin-bottom: 30px; 
+  margin-right: 20px;
+}
+.owl-carousel .item a img{
+  transition: transform .2s;
+}
+.owl-carousel .item a img:hover{
+  transform: scale(1.2);
+}
+.owl-carousel .item img{
+  width: fit-content;
+  height: 40px;
+}
+.form-details{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.form-details .form-control{
+  padding: 20px 15px;
+  border-radius: 30px;
+  margin-left: 100px;
+  
+}
+.form-details .btn{
+  background-color:#AE42C9;
+  color: white;
+  margin-right: 100px;
+}
+.footer-1{
+  background-color:#AE42C9;
+}
+.form-details .btn:hover{
+  background-color: white;
+  color:#AE42C9;
+  border:2px solid #AE42C9;
+}
+.footer-1 .container{
+  margin-bottom: 50px;
+}
+.footer-1 a img{
+  margin-top: 50px;
+}
+.footer-2{
+  background-color:#f4f7fa;
+}
+.footer-2 .container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.fa{
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.message{
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  align-items: center;
+    justify-content: center;
+    display: flex;
+  width: 60px;
+  height: 60px;
+  background-color:  #AE42C9;
+}

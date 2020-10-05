@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Alinea Invest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="css/owlcarousel/owl.carousel.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      //new WOW().init();
+      $(window).scroll(function(){
+        console.log("jhjhjh")
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });
+    $(document).ready(function() {
+      var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+})
+    </script>
+  </head>
+  <body>
+    <div class="root">
+      <div class="message">
+        <span class="material-icons text-white">
+          message
+          </span>
+      </div>
+      <div class="background">
+        <div class="topnav">
+          <nav class="navbar navbar-expand-lg fixed-top navbar-default mb-4">
+            <div class="container">
+              <a class="navbar-brand" href="/"><img src="images/logo-white-1x.png" width="250" alt="logo" class="img-fluid"></a>
+            </div>
+          </nav>
+        </div>
+        <div class="container" style="padding-top: 100px;">
+         <div class="row">
+          <div class="col-sm-6 align-self-center text-white" >
+            <h1 style="font-size: 60px;">
+              Not Your <b>Typical</b> <br> Investing App
+            </h1>
+            <h3>
+              <a href="" class="typewrite" data-period="2000" data-type='[ "Learn with Intention.", "Invest with Intention.", "Connect with Intention."]'>
+                <!-- <span class="wrap"></span> -->
+              </a>
+            </h3>
+            <h5>Alinea makes responsible investing fun, easy, and social.</h5> <br>
+            <button type="button" class="btn btn-light btn-lg rounded-pill">Start Your Journy</button>
+            <div class="mt-4">
+              <img src="images\apple.png" alt="" width="150">
+            </div>
+          </div>
+          <div class="col-sm-6 text-center">
+            <img src="images/app-mobile.gif" alt="" class="img-fluid" height="300px">
+          </div>
+         </div>
+        </div>
+      </div>
+      <div class="second-Section">
+        <div class="row ml-0 mr-0 mt-4 mb-4">
+          <div class="container">
+            <div class="text-center mb-4">
+              <h1 style="">
+                We get it. 🤷🏽‍♀️ <br class="mb-3">
+                Investing is overwhelming, <br class="mb-3">
+                but it doesn’t have to be. <br class="mb-3">
+              </h1>
+            </div>
+            <div class="card-deck mt-4">
+              <div class="card text-center">
+                <div class="card-header">
+                  <span class="material-icons" >
+                    groups
+                  </span>
+                  <h4>Community</h4>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">We all need someone to lean on and investing is no different.
+                    As part of our community, you get the support to embark and continue on your journey.</p>
+                </div>
+              </div>
+              <div class="card text-center ">
+                <div class="card-header">
+                  <span class="material-icons" >
+                    euro_symbol
+                    </span>
+                 <h4> Responsible Investing</h4>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Make your money moves matter!
+                    Express your values and interests through your investments.</p>
+                </div>
+              </div>
+              <div class="card text-center ">
+                <div class="card-header">
+                  <span class="material-icons">
+                    menu_book
+                    </span>
+                  <h4>Learning</h4>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">We eliminate all the unnecessary financial jargon.
+                    Learn as you go with our interactive mini capsules and before you know it, you’ll be a confident investor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="thrid-section">
+        <div class="row ml-0 mr-0 mt-5">
+          <div class="container text-center">
+            <h1>What does Alinea offer?</h1>
+           <div class="row mt-4">
+            <div class="col-sm-4 align-self-center ">
+              <ul class="list-group  list-group-flush">
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      account_circle
+                    </span>
+                    <h5>Custom Portfolios</h5>
+                  </div>
+                  <p>Pre-packaged portfolios for you.</p>
+                </li>
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      people_alt
+                    </span>
+                    <h5>Kickass Community</h5>
+                  </div>
+                  <p>Our community is here to support you every step of the way.</p>
+                </li>
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      speed
+                    </span>
+                    <h5>
+                      Speedy Support
+                    </h5>
+                  </div>
+                  <p>
+                    We have quick answers to all your investing questions.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <img src="images\feature1.gif" class="img-fluid" alt="">
+            </div>
+            <div class="col-sm-4 align-self-center ">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      pie_chart
+                    </span>
+                    <h5>Fractional Shares</h5>
+                  </div>
+                  <p>Invest in any share with as little as $1.</p>
+                </li>
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      monetization_on
+                    </span>
+                    <h5>Invest with Intention</h5>
+                  </div>
+                  <p>We give you the right information to make an impact.</p>
+                </li>
+                <li class="list-group-item">
+                  <div>
+                    <span class="material-icons pr-4">
+                      local_library
+                    </span>
+                    <h5>Learn & Grow</h5>
+                  </div>
+                  <p>We make learning fun and easy.</p>
+                </li>
+              </ul>
+            </div>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="fourth-section">
+        <div class="row ml-0 mr-0">
+          <div class="container text-white">
+            <h1 class="mb-2">
+              BECOME A PART OF OUR <br> KICKASS COMMUNITY
+            </h1>
+            <p>We can’t do this alone, so we need each other, especially you. <br>
+              Join our community and get started on your investing journey!
+            </p>
+            <button type="button" class="btn btn-light btn-lg rounded-pill" >Join Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="fifth-section">
+        <div class="row ml-0 mr-0">
+          <div class="container text-center">
+            <h1>Featured in</h1>
+            <div class="owl-carousel owl-theme">
+              <div class="item"><a href=""><img src="images\AspireToHer.png" alt=""></a></div>
+              <div class="item"><a href=""><img src="images\ColumbiaUniversity.png" alt="" ></a></div>
+              <div class="item"><a href=""><img src="images\IAlsoWantMoney.png" alt="" ></a></div>
+              <!-- <div class="item mr-4"><img src="images\InvestedMillennial.png" alt="" ></div> -->
+              <div class="item"><a href=""><img src="images\MayshandGroup.png" alt="" ></a></div>
+              <div class="item"><a href=""><img src="images\TheBusinessCasual.png" alt="" ></a></div>
+              <div class="item"><a href=""><img src="images\ThePowerThread.png" alt="" ></a></div>
+            </div>
+            <div class="form-details text-center">
+              <form action="" >
+                <div class="d-flex align-items-center">
+                  <input type="text" class="form-control" name="" id="" placeholder="Enter Email address">
+                  <input type="submit" class="btn btn-light btn-lg rounded-pill" value="Subscribe">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-1">
+        <div class="row ml-0 mr-0">
+          <div class="container">
+            <a class="navbar-brand" href="/"><img src="images/logo-white-1x.png" width="250" alt="logo" class="img-fluid"></a>
+            <p class="mt-4 text-white">Alinea Invest makes <br> responsible investing fun, <br> easy, and social with learning <br> features.</p>
+            <div class="social">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+              <i class="fa fa-weixin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-2">
+        <div class="row ml-0 mr-0">
+          <div class="container text-center">
+            This website is for informational purposes only, and is not intended to serve as a recommendation to buy or sell any security in any account, and is not an offer or sale of a security. They are also not research reports and are not intended to serve as the basis for any investment decision. Any third-party information provided therein does not reflect the views of Alinea Invest, LLC. All investments involve risk and the past performance of a security or financial product does not guarantee future results or returns. Keep in mind that while diversification may help spread risk, it does not assure a profit or protect against loss. There is always the potential of losing money when you invest in securities or other financial products. Investors should consider their investment objectives and risks carefully before investing. The price of a given security may increase or decrease based on market conditions and customers may lose money, including their original investment. Alinea Invest, LLC is not a registered investment adviser or broker-dealer.
+
+<br><br> Copyright © 2020. All rights reserved by Alinea Invest
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
