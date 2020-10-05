@@ -141,10 +141,13 @@ a:hover{
 .form-details .form-control{
   padding: 20px 15px;
   border-radius: 30px;
+  /* margin-left: 100px; */
+  
 }
 .form-details .btn{
   background-color:#AE42C9;
   color: white;
+  /* margin-right: 100px; */
 }
 .footer-1{
   background-color:#AE42C9;
